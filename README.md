@@ -101,8 +101,6 @@ Si por algo ya escribiste algo en app.js podemos descartar estos cambios simplem
 
 ### Revertir
 
-Holaaaaaa
-
 A veces, no detectamos un error hasta después de haberlo confirmado con un commit, vamos a poner algo en app.js y darle commit, quizá incluso podemos agregar un código inservible.
 
 Para *revertir* el commit, ve a la pestaña "Historial" en GitHub Desktop. Haz clic derecho en el commit con el mensaje que tiene el error y selecciona "Revert Changes in Commit". Esto tendrá el efecto de crear un *nuevo* commit que deshace los cambios en tu commit erróneo. Esto funcionará incluso si has hecho otros commits desde el commit incorrecto; solo los cambios de ese commit serán revertidos.
